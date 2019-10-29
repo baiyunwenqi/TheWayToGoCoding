@@ -40,5 +40,7 @@ func filter(in, out chan int, prime int) {
 执行这段代码会不停地打印出大于等2的质数： 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47......
 在片段1中`go generate(ch)`创建了一个goroutine，它不断向`ch`中写入间隔为1的递增序列: 2 3 4 5 6 7 8 9 10 11.....
 语句`prime := <-ch`将`ch`首次放入的数据取出，该数必为质数。通过执行`go filter(ch,ch1,prime)`将`ch`中不被prime整除的数放入`ch1`中。片段1的数据流动过程可以表示如下：
+
 <img src='http://www.plantuml.com/plantuml/png/SoWkIImgAStDuQefAChCAwdXgadEgE42Yt9P6Ld3XC7ibDIInEGCY0ehOw1SMcPEIMgHWX6OYr1gZARKn9hBoXHPEGhN6Cn5w3P5qsq6r6sEh1k5QupADGLp4OQPmmrpICrB0VeJ0000'>
+
 `print`表示打印的数据通道，`ch`为原始产生递增序列的通道，`filter 2`为根据`ch`产生的不被2整出的数据通道，`filter 3`为根据`filter 2`产生的不被3整除的数据通道。
