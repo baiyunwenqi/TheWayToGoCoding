@@ -7,6 +7,7 @@ func main(){
 }
 ````
 ## 生产数据的工厂
+代码2
 ````go
 func pump()chan int{
 	ch:=make(chan int)
@@ -29,3 +30,12 @@ func suck(ch chan int){
 ````
 该协程会一直存在，直到`mian()`退出，而且当`<-ch`无数据时，受到阻塞
 
+## 客户端代码的另一种写法-利用 For range 结构
+````go
+func suck(ch chan int){
+	for v:=range ch{
+		fmt.Println(v)
+	}
+}
+````
+与代码2的区别是，这里可以通过close(ch)而结束suck(),而代码2中无法由主线程结束suck()
