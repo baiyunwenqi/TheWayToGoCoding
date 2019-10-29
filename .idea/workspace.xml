@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ecef2c-12c5-4bbb-8d0b-8643bad8c055" name="Default Changelist" comment="channel facotry pattern">
-      <change afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/Channel Iterator pattern/Itertor pattern.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pip and filter pattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pipe and filter pattern.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/Channel Facorty pattern/channel factory pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/Channel Facorty pattern/channel factory pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pip and filter pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pip and filter pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pipe and filter pattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter14/14.2 Channels for communication between goroutines/pipe and filter pattern/pipe and filter pattern.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
@@ -213,6 +212,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -299,8 +299,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
