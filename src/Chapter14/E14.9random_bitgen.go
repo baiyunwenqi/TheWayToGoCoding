@@ -28,3 +28,5 @@ func genBit0(bit0 chan byte){
 		bit0<-0
 	}
 }
+
+
